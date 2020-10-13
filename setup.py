@@ -1,15 +1,6 @@
 import setuptools
 
 
-import platform
-system = platform.system()
-
-if system == 'Windows':
-    from linux import *
-else:
-    pass
-
-
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -29,4 +20,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    py_modules=['mt5']
 )
