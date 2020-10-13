@@ -4,7 +4,7 @@ import setuptools
 import platform
 system = platform.system()
 
-if system == 'Linux':
+if system == 'Windows':
     from linux import *
 else:
     pass
