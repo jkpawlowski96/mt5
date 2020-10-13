@@ -2,6 +2,6 @@ import platform
 system = platform.system()
 
 if system == 'Windows':
-    from linux import *
+    from windows import *
 else:
-    pass
+    from linux import * 
