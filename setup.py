@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mt5", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Jakub Pawłowski",
     author_email="jkpawlowski96@gmail.com",
     description="MetaTrader5 multiplatform python api",
