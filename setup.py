@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="Jakub Pawłowski",
     author_email="jkpawlowski96@gmail.com",
-    description="A small example package",
+    description="MetaTrader5 multiplatform python api",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/jkpawlowski96/mt5",
